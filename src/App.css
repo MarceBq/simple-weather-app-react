@@ -1,0 +1,93 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+hr{
+  margin-left: 40px;
+}
+
+button{
+  width: 100px;
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-container {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Temperature container */
+
+.temperature-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.temperature-container .val {
+  font-size: 7rem;
+}
+
+.temperature-container-values {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.temperature-container-values span{
+  font-size: 1.35rem;
+}
+
+.temperature-container-values img {
+  width: 25px;
+}
+
+.temperature-max-container {
+  display: flex;
+  justify-content: center;
+}
+
+.temperature-min-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Description container */
+
+.description-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description-container img {
+  width: 140px;
+}
+
+/* Features container */
+.features-container {
+  width: 95%;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
